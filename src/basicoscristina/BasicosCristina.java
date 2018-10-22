@@ -9,6 +9,7 @@ package basicoscristina;
  *
  * @author cristina
  */
+import java.util.Scanner;
 public class BasicosCristina {
        /**
      * Método para mostrar ejemplos de tipos numericos.
@@ -36,10 +37,28 @@ public class BasicosCristina {
     /**
      * @param args the command line arguments
      */
+        public static void logicos(){
+  
+    
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("dime los meses de tu hijo/a:");
+        int meses = scanner.nextInt();
+        boolean chupete=(meses>=18)&&(meses<=24);
+	
+	if (chupete) {
+        System.out.println("es aconsejable el chupete");
+        }
+        else{
+            System.out.println("no es aconsejable el chupete");
 
+        }
+        
+}
     public static void main(String[] args) {
         numericos();  // Llamada al método
-    }
-    }
+    
+        logicos(); 
     
 
+}
+}
