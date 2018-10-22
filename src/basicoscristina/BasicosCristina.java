@@ -10,12 +10,23 @@ package basicoscristina;
  * @author cristina
  */
 public class BasicosCristina {
-
-    /**
-     * @param args the command line arguments
-     */
+    public static void cadenas(){
+    //declaracion de variable
+    String cuento,autor;
+    //asignacion de variable
+    cuento = "jaimito";
+    autor = "Cristina";
+    
+    //imprimir pantalla
+     System.out.println("cuento");
+        System.out.println(cuento);
+        System.out.println("autor");
+        System.out.println(autor);
+    }
     public static void main(String[] args) {
         // TODO code application logic here
+        cadenas(); //llamada al método
     }
+
     
 }
